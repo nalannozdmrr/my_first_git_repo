@@ -115,3 +115,19 @@ Create another commit to push only FifthJavaClass
 *git push
 ----
 This code should push only src/ForthJavaClass.java
+-------
+If you get an error solution:
+*git pull
+*git add .
+* git commit -m "message"
+*git push
+---------------
+How to ignore a file?
+.gitignore
+
+*We create .gitignore file in project level
+*We add the path of classes that we want to ignore
+*For example, if you add EightJavaClass.java in .gitignore
+then that file cannot be pushed to github
+
+How can we make it visible?
