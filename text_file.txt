@@ -98,3 +98,20 @@ public class RemoteJavaClass {
 *Scroll down and click commit new fie
 *git pull
 Then your github code should be in your local repo
+
+***How to push ONLY ONE SPECIFIC file?
+
+    *git add "path of the file"
+    *git commit -m "message"
+    *git push
+Example:
+Create a new java class: ForthJavaClass
+Create another java class: FifthJavaClass
+Create a new commit to push only ForthJavaClass
+Create another commit to push only FifthJavaClass
+
+*git add "src/ForthJavaClass.java"
+*git commit -m "message"
+*git push
+----
+This code should push only src/ForthJavaClass.java
