@@ -82,6 +82,13 @@ We see the status of our codes
 We can use this anytime to see where your are
 
 Day02*******
+***REVİEW OF GIT PUSH:
+    *git add .
+    *git commit -m "second commit"
+    *git push
+
+***REVİEW ABOUT GIT PULL:
+    *git pull
 Create a new class RemoteJavaClass.java under src folder in github
 *Create new file
 *Type below code in that file
