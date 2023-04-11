@@ -131,3 +131,4 @@ How to ignore a file?
 then that file cannot be pushed to github
 
 How can we make it visible?
+Remote the path of the class from the github?
