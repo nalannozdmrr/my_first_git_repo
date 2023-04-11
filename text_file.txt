@@ -137,4 +137,21 @@ Remote the path of the class from the github?
 If github and intellij haf DIFFERENT CODES in the SAME LINE
 ****How do you resolve conflict?
 Normally IDE(intellij) has seating the resolve conflict automatically
-But I prefer to solve manually because I need to see whta is the conflict
+But I prefer to solve manually because I need to see what is the conflict
+-----------------
+****WHY BRANCH?
+We never write in the master/main branch when working with team
+We are making copy of the original code and working on it without breaking
+original source code with branch
+Each person it the team work in their own local branch and push their own
+remote repo
+Then do 'pull request'.Then one developer reviews the codes and approves pull request,
+then we merge codes goes to remote master/mail
+****BENEFITS OF BRANCH
+Security of the original codes
+Faster development
+Responsibility and ownership of their own code
+Less mistakes
+Quick fixes
+Organized codes
+No chaos
