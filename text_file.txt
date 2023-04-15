@@ -155,3 +155,42 @@ Less mistakes
 Quick fixes
 Organized codes
 No chaos
+--------------------
+*Summary
+-Git is a version control for tracking a project version,
+and storing them
+-Git is used for collaboration within a team
+-------
+git init -> is used once at the beginning of each project
+git add . -> add codes
+git commit -m "message" -> sending the code to github
+-------
+git pull -> used for pulling the new codes from github
+We might get conflict IF THE CODES ARE ON THE SAME FILE ON THE SAME
+LINE
+NOTE: to avoid conflict, we can work on our own branches, OR we work
+on different folder/files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
