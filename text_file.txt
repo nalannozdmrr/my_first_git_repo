@@ -205,7 +205,7 @@ iii.'COLLABORATOR: Collaborator creates his/her own branch and write in that bra
       i.'git branch collaboratorbranch 'git checkout collaboratorbranch 'create a new class 'write your code
       ii.'push your code
             i.'git add . 'git commit -m "collaborator branch" 'git push --set-upstream origin collaborators branch 'check your github
-      iii.'As responsible from git merge, I'm merging from local branch to master branch
+      iii.'As ADMIN from git merge, I'm merging from local branch to master branch
             i.'pull requests 'new pull request 'compare codes 'base: master, compare:COLLABARORS BRANCH 'create pull request 'merge pull request 'comfirm merge 'git hub master branch is now updated
             ii.Collaborators code is now on remote master
 iv.'MY TURN: I write my code and push to remote, then merge to remote master. Write code and push
@@ -221,7 +221,28 @@ vi.'As responsible from git merge. I'm merging from local branch to master branc
 vii.'pull request 'new pull request 'compare codes 'base: master,compare:COLLABARORS BRANCH 'create pull request 'merge pull request 'confirm merge 'git hub master branch is now updated.
 viii.'Everyone updates local master
             i.'git checkout master 'git pulll
-ix.Now local master is updated 'Collaboratır must update the local master as well
+ix.Now local master is updated 'Collaborator must update the local master as well
+---
+pwd
+cd ..
+cd ..
+pwd
+ls
+cd Desktop
+cd my-github-projects
+git clone http://......
+*after this I will see the project at my folder
+*this is the long way to clone
+*We can clone a project without intellij using only terminal
+     -We can crate a folder
+     -and change directory to that folder
+     -and use the comment below
+          *git clone projecturl
+     NOTE: cd .. ->changes the parent folder
+           cd foldername ->changes specific folder
+           We must be in the correct folder so we can clone in that folder
+
+
 
 
 
