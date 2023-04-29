@@ -170,6 +170,59 @@ We might get conflict IF THE CODES ARE ON THE SAME FILE ON THE SAME
 LINE
 NOTE: to avoid conflict, we can work on our own branches, OR we work
 on different folder/files
+-------
+git branches are used for avoiding problems in master branch.
+We should write our code in our own branch, and push our own
+branch. Then the expert will take case of merging them into master branch
+-------
+What is conflict?
+1.Local repo: line 4 has my code
+2.Remote repo: line 4 has friends code
+3.Pulling the code before push
+4.CONFLİCT
+-Solution
+1.Delete the conflict message manually
+2.commit the clean code
+3.push the clean code
+FINAL CODE ON GITHUB HAS ALL CLEAN CODES
+-----------------------------------------------------------------
+****COLLABORATION
+-Public repositories can be cloned or pulled
+-No-one can edit someone elses public or private GitHub repo
+-No-one can push any code to someone elses public or private gitHub repo
+-However we can add collaboration to our repositories (public or private)
+and the collaborators permission to push
+---
+I need Collaborators:
+Owner: Nalan
+Collaborator 1:
+Collaborator 2:
+---
+i.'Go to gitHub project 'Settings 'Manage Access 'Invite a collaborator 'Enter email
+ii.'Accept invitation 'Clone the project (git clone url) 'git clone http://github.com/techproed/first-repo
+iii.'COLLABORATOR: Collaborator creates his/her own branch and write in that branch
+      i.'git branch collaboratorbranch 'git checkout collaboratorbranch 'create a new class 'write your code
+      ii.'push your code
+            i.'git add . 'git commit -m "collaborator branch" 'git push --set-upstream origin collaborators branch 'check your github
+      iii.'As responsible from git merge, I'm merging from local branch to master branch
+            i.'pull requests 'new pull request 'compare codes 'base: master, compare:COLLABARORS BRANCH 'create pull request 'merge pull request 'comfirm merge 'git hub master branch is now updated
+            ii.Collaborators code is now on remote master
+iv.'MY TURN: I write my code and push to remote, then merge to remote master. Write code and push
+      i.'git add .'git commit -m "message"
+      ii.'Update local master
+            i.'git checkout master 'git pull -> local master is updated
+      iii.'Update Local Branch
+            i.'git checkout feature 'git merge master
+            ii.'in case of conflict keep, resolve the conflict and push the code to remote
+            iii.'git add . 'git commit -m "collaborator branch" 'git push
+v.'codes are now on github
+vi.'As responsible from git merge. I'm merging from local branch to master branch
+vii.'pull request 'new pull request 'compare codes 'base: master,compare:COLLABARORS BRANCH 'create pull request 'merge pull request 'confirm merge 'git hub master branch is now updated.
+viii.'Everyone updates local master
+            i.'git checkout master 'git pulll
+ix.Now local master is updated 'Collaboratır must update the local master as well
+
+
 
 
 
