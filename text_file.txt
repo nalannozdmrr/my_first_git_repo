@@ -200,7 +200,8 @@ Collaborator 2:
 ---
 i.'Go to gitHub project 'Settings 'Manage Access 'Invite a collaborator 'Enter email
 ii.'Accept invitation 'Clone the project (git clone url) 'git clone http://github.com/techproed/first-repo
-iii.'COLLABORATOR: Collaborator creates his/her own branch and write in that branch
+    (take the url from github got to intellij file-new-project from version control click add the url and clone it)
+iii.'COLLABORATOR: Collaborator creates his/her own branch and write in that branch (we can not add our code to the main branch we have to got to our branch)
       i.'git branch collaboratorbranch 'git checkout collaboratorbranch 'create a new class 'write your code
       ii.'push your code
             i.'git add . 'git commit -m "collaborator branch" 'git push --set-upstream origin collaborators branch 'check your github
